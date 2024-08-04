@@ -23,9 +23,9 @@ if (app.Environment.IsDevelopment())
 app.ApplyMigration();
 app.SeedData();
 
-// app.UseCustomExceptionHandler();
+app.UseCustomExceptionHandler();
 
-app.MapControllers();//***
+app.MapControllers();
 
 app.Run();
 
