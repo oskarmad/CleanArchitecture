@@ -5,7 +5,7 @@ namespace ClearArchitecture.Domain.Users;
 
 public sealed class User : Entity
 {
-
+    private User() { }
     private User(
         Guid id,
         Nombre nombre,

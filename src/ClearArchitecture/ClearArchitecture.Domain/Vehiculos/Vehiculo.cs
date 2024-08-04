@@ -10,6 +10,8 @@ namespace ClearArchitecture.Domain.Vehiculos;
 //Modelo enriquecido
 public sealed class Vehiculo : Entity
 {
+  private Vehiculo(){}
+  
   public Vehiculo(
 Guid id,
 Modelo modelo,
